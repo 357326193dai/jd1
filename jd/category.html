@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>京东分类</title>
+    <!-- 1.导入category.css -->
+    <link rel="stylesheet/less" href="less/category.less">
+    <!-- 2.导入 less编译器文件-->
+    <script src="lib/less/less.js"></script>
+    <!-- 3.导入swiper.css文件 -->
+    <link rel="stylesheet" href="lib/swiper/css/swiper.css">
+</head>
+
+<body>
+    <!-- 头部区域 -->
+    <header id="header">
+        <!-- 京东左侧logo图标 -->
+        <a href="#" class="icon-back"></a>
+        <!-- 建议使用H5search 可以让键盘右下角变成搜索 -->
+        <form action="#">
+            <i class="icon-search"></i>
+            <input type="search" placeholder="请输入要搜索的商品">
+        </form>
+        <a href="#" class="icon-menu"></a>
+    </header>
+    <!-- 主体区域 -->
+    <section id="main">
+        <div class="category-left">
+            <!-- swiper的大容器 -->
+            <div class="swiper-container">
+                <!-- swiper-wrapper的所有图片容器 -->
+                <div class="swiper-wrapper">
+                    <!-- 每一张图片容器 -->
+                    <div class="swiper-slide">
+                        <!-- slide里面才是放真实显示的内容 -->
+                         <!-- 盒子内容的滑动和轮播图一样的,将盒子中的子元素看做是一张图片,滑动盒子中的内容 -->
+                        <ul>
+                            <li class="active">
+                                <a href="#">热门推荐</a>
+                            </li>
+                            <li>
+                                <a href="#">手机数码</a>
+                            </li>
+                            <li>
+                                <a href="#">家用电器</a>
+                            </li>
+                            <li>
+                                <a href="#">电脑办公</a>
+                            </li>
+                            <li>
+                                <a href="#">计生情趣</a>
+                            </li>
+                            <li>
+                                <a href="#">美妆护肤</a>
+                            </li>
+                            <li>
+                                <a href="#">个护清洁</a>
+                            </li>
+                            <li>
+                                <a href="#">汽车用品</a>
+                            </li>
+                            <li>
+                                <a href="#">京东超市</a>
+                            </li>
+                            <li>
+                                <a href="#">男装</a>
+                            </li>
+                            <li>
+                                <a href="#">男鞋</a>
+                            </li>
+                            <li>
+                                <a href="#">女装</a>
+                            </li>
+                            <li>
+                                <a href="#">女鞋</a>
+                            </li>
+                            <li>
+                                <a href="#">母婴童装</a>
+                            </li>
+                            <li>
+                                <a href="#">运动户外</a>
+                            </li>
+                            <li>
+                                <a href="#">内衣配饰</a>
+                            </li>
+                            <li>
+                                <a href="#">食品生鲜</a>
+                            </li>
+                            <li>
+                                <a href="#">酒水饮料</a>
+                            </li>
+                            <li>
+                                <a href="#">家具家装</a>
+                            </li>
+                            <li>
+                                <a href="#">家居厨具</a>
+                            </li>
+                            <li>
+                                <a href="#">箱包手袋</a>
+                            </li>
+                            <li>
+                                <a href="#">钟表珠宝</a>
+                            </li>
+                            <li>
+                                <a href="#">图书音像</a>
+                            </li>
+                            <li>
+                                <a href="#">玩具乐器</a>
+                            </li>
+                            <li>
+                                <a href="#">医药保健</a>
+                            </li>
+                            <li>
+                                <a href="#">宠物生活</a>
+                            </li>
+                            <li>
+                                <a href="#">礼品鲜花</a>
+                            </li>
+                            <li>
+                                <a href="#">农资绿植</a>
+                            </li>
+                            <li>
+                                <a href="#">生活旅行</a>
+                            </li>
+                            <li>
+                                <a href="#">奢侈品</a>
+                            </li>
+                            <li>
+                                <a href="#">全球购</a>
+                            </li>
+                            <li>
+                                <a href="#">国际名牌</a>
+                            </li>
+                            <li>
+                                <a href="#">艺术邮币</a>
+                            </li>
+                            <li>
+                                <a href="#">二手商品</a>
+                            </li>
+                            <li>
+                                <a href="#">特产馆</a>
+                            </li>
+                            <li>
+                                <a href="#">京东金融</a>
+                            </li>
+                            <li>
+                                <a href="#">拍卖</a>
+                            </li>
+                            <li>
+                                <a href="#">房产</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="category-right">
+            <!-- swiper的大容器 -->
+            <div class="swiper-container">
+                <!-- swiper-wrapper的所有图片容器 -->
+                <div class="swiper-wrapper">
+                    <!-- 每一张图片容器 -->
+                    <div class="swiper-slide">
+                        <!-- slide里面才是放真实显示的内容 -->
+                        <div class="brandList">
+                            <!-- 每个品牌 -->
+                            <div class="jd-brand">
+                                <h4>热门分类</h4>
+                                <ul class="jd-category-style-1">
+                                    <li>
+                                        <a href="https://so.m.jd.com/products/9987-653-655.html?PTAG=137886.1.61&amp;searchFrom=category">
+                                            <img src="//img14.360buyimg.com/focus/s140x140_jfs/t27136/183/1628977274/31007/a6f7ed55/5be6ebd8Nb07ef492.png">
+                                            <span>手机</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://so.m.jd.com/ware/search.action?keyword=充电宝&amp;PTAG=137886.1.68&amp;searchFrom=category">
+                                            <img src="//img20.360buyimg.com/focus/s140x140_jfs/t24253/294/2182777138/4059/429945c9/5b76990bNde226fbc.png">
+                                            <span>充电宝</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://so.m.jd.com/ware/search.action?keyword=华为&amp;PTAG=137886.1.74&amp;searchFrom=category">
+                                            <img src="//img30.360buyimg.com/focus/s140x140_jfs/t1/1446/14/631/8500/5b9237e5E0d1f9e16/b1a627b92323b5ed.png">
+                                            <span>华为</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://so.m.jd.com/products/670-699-700.html?PTAG=137886.1.71&amp;projectId=1715&amp;searchFrom=category">
+                                            <img src="//img14.360buyimg.com/focus/s140x140_jfs/t27400/283/1600620667/15106/a935e7bd/5be6f2e1Nfa8d9d6e.png">
+                                            <span>路由器</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://so.m.jd.com/ware/search.action?keyword=蓝牙耳机&amp;PTAG=137886.1.62&amp;searchFrom=category">
+                                            <img src="//img30.360buyimg.com/focus/s140x140_jfs/t1/6167/13/2827/3094/5bd2dbc8Edd449236/647416c61d30f0a4.jpg">
+                                            <span>蓝牙耳机</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://so.m.jd.com/ware/search.action?keyword=保暖内衣&amp;PTAG=137886.1.72&amp;searchFrom=category">
+                                            <img src="//img13.360buyimg.com/focus/s140x140_jfs/t1/8075/17/2528/6114/5bd2e6adE0393f846/f14954f284a56cc3.png">
+                                            <span>保暖内衣</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://so.m.jd.com/ware/search.action?keyword=袜子&amp;PTAG=137886.1.63&amp;searchFrom=category">
+                                            <img src="//img13.360buyimg.com/focus/s140x140_jfs/t1/2218/31/12406/9370/5bd2e748E843c7885/a143d0c4244bb145.png">
+                                            <span>袜子</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://so.m.jd.com/ware/search.action?keyword=iPhoneX&amp;PTAG=137886.1.73&amp;searchFrom=category">
+                                            <img src="//img14.360buyimg.com/focus/s140x140_jfs/t1/5163/2/12280/5740/5bd2e5ecEc3fc56ad/ab2d17a2ae3002c0.png">
+                                            <span>iPhoneX</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://so.m.jd.com/ware/search.action?keyword=面膜&amp;PTAG=137886.1.65&amp;searchFrom=category">
+                                            <img src="//img20.360buyimg.com/focus/s140x140_jfs/t28384/233/81224514/37765/8da180d4/5be6f0bbNcbb7f449.png">
+                                            <span>面膜</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://so.m.jd.com/ware/search.action?keyword=男士内裤&amp;PTAG=137886.1.66&amp;searchFrom=category">
+                                            <img src="//img10.360buyimg.com/focus/s140x140_jfs/t1/5330/25/9335/25245/5baca7a4E7b11c7aa/f207304f560ea653.jpg">
+                                            <span>男士内裤</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://so.m.jd.com/ware/search.action?keyword=洗发水&amp;PTAG=137886.1.67&amp;searchFrom=category">
+                                            <img src="//img13.360buyimg.com/focus/s140x140_jfs/t27148/342/1635695637/15397/d4ed72c2/5be6f2e8Nfcdab97b.png">
+                                            <span>洗发水</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://so.m.jd.com/ware/search.action?keyword=抽纸&amp;PTAG=137886.1.75&amp;searchFrom=category">
+                                            <img src="//img11.360buyimg.com/focus/s140x140_jfs/t25981/3/2531207827/28017/74a9cf02/5be6f2edNbe45f02b.png">
+                                            <span>抽纸</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://so.m.jd.com/ware/search.action?keyword=剃须刀&amp;PTAG=137886.1.69&amp;searchFrom=category">
+                                            <img src="//img13.360buyimg.com/focus/s140x140_jfs/t1/1860/37/9649/15932/5baca7b1Ecf514d87/02361661c2a70908.png">
+                                            <span>剃须刀</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://so.m.jd.com/ware/search.action?keyword=洗衣液&amp;PTAG=137886.1.64&amp;searchFrom=category">
+                                            <img src="//img30.360buyimg.com/focus/s140x140_jfs/t1/9/15/10624/7280/5baca797E43b008fe/9bbe27f6503a4fd6.png">
+                                            <span>洗衣液</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://so.m.jd.com/ware/search.action?keyword=鼠标&amp;PTAG=137886.1.70&amp;searchFrom=category">
+                                            <img src="//img20.360buyimg.com/focus/s140x140_jfs/t27205/124/1568993455/17417/c6e116aa/5be6f126N9aea8ef3.png">
+                                            <span>鼠标</span>
+                                        </a>
+                                    </li>
+                                    <div style="clear:both"></div>
+                                </ul>
+                            </div>
+                               <!-- 每个品牌 -->
+                               <div class="jd-brand">
+                                    <h4>热门分类</h4>
+                                    <ul class="jd-category-style-1">
+                                        <li>
+                                            <a href="https://so.m.jd.com/products/9987-653-655.html?PTAG=137886.1.61&amp;searchFrom=category">
+                                                <img src="//img14.360buyimg.com/focus/s140x140_jfs/t27136/183/1628977274/31007/a6f7ed55/5be6ebd8Nb07ef492.png">
+                                                <span>手机</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://so.m.jd.com/ware/search.action?keyword=充电宝&amp;PTAG=137886.1.68&amp;searchFrom=category">
+                                                <img src="//img20.360buyimg.com/focus/s140x140_jfs/t24253/294/2182777138/4059/429945c9/5b76990bNde226fbc.png">
+                                                <span>充电宝</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://so.m.jd.com/ware/search.action?keyword=华为&amp;PTAG=137886.1.74&amp;searchFrom=category">
+                                                <img src="//img30.360buyimg.com/focus/s140x140_jfs/t1/1446/14/631/8500/5b9237e5E0d1f9e16/b1a627b92323b5ed.png">
+                                                <span>华为</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://so.m.jd.com/products/670-699-700.html?PTAG=137886.1.71&amp;projectId=1715&amp;searchFrom=category">
+                                                <img src="//img14.360buyimg.com/focus/s140x140_jfs/t27400/283/1600620667/15106/a935e7bd/5be6f2e1Nfa8d9d6e.png">
+                                                <span>路由器</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://so.m.jd.com/ware/search.action?keyword=蓝牙耳机&amp;PTAG=137886.1.62&amp;searchFrom=category">
+                                                <img src="//img30.360buyimg.com/focus/s140x140_jfs/t1/6167/13/2827/3094/5bd2dbc8Edd449236/647416c61d30f0a4.jpg">
+                                                <span>蓝牙耳机</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://so.m.jd.com/ware/search.action?keyword=保暖内衣&amp;PTAG=137886.1.72&amp;searchFrom=category">
+                                                <img src="//img13.360buyimg.com/focus/s140x140_jfs/t1/8075/17/2528/6114/5bd2e6adE0393f846/f14954f284a56cc3.png">
+                                                <span>保暖内衣</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://so.m.jd.com/ware/search.action?keyword=袜子&amp;PTAG=137886.1.63&amp;searchFrom=category">
+                                                <img src="//img13.360buyimg.com/focus/s140x140_jfs/t1/2218/31/12406/9370/5bd2e748E843c7885/a143d0c4244bb145.png">
+                                                <span>袜子</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://so.m.jd.com/ware/search.action?keyword=iPhoneX&amp;PTAG=137886.1.73&amp;searchFrom=category">
+                                                <img src="//img14.360buyimg.com/focus/s140x140_jfs/t1/5163/2/12280/5740/5bd2e5ecEc3fc56ad/ab2d17a2ae3002c0.png">
+                                                <span>iPhoneX</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://so.m.jd.com/ware/search.action?keyword=面膜&amp;PTAG=137886.1.65&amp;searchFrom=category">
+                                                <img src="//img20.360buyimg.com/focus/s140x140_jfs/t28384/233/81224514/37765/8da180d4/5be6f0bbNcbb7f449.png">
+                                                <span>面膜</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://so.m.jd.com/ware/search.action?keyword=男士内裤&amp;PTAG=137886.1.66&amp;searchFrom=category">
+                                                <img src="//img10.360buyimg.com/focus/s140x140_jfs/t1/5330/25/9335/25245/5baca7a4E7b11c7aa/f207304f560ea653.jpg">
+                                                <span>男士内裤</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://so.m.jd.com/ware/search.action?keyword=洗发水&amp;PTAG=137886.1.67&amp;searchFrom=category">
+                                                <img src="//img13.360buyimg.com/focus/s140x140_jfs/t27148/342/1635695637/15397/d4ed72c2/5be6f2e8Nfcdab97b.png">
+                                                <span>洗发水</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://so.m.jd.com/ware/search.action?keyword=抽纸&amp;PTAG=137886.1.75&amp;searchFrom=category">
+                                                <img src="//img11.360buyimg.com/focus/s140x140_jfs/t25981/3/2531207827/28017/74a9cf02/5be6f2edNbe45f02b.png">
+                                                <span>抽纸</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://so.m.jd.com/ware/search.action?keyword=剃须刀&amp;PTAG=137886.1.69&amp;searchFrom=category">
+                                                <img src="//img13.360buyimg.com/focus/s140x140_jfs/t1/1860/37/9649/15932/5baca7b1Ecf514d87/02361661c2a70908.png">
+                                                <span>剃须刀</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://so.m.jd.com/ware/search.action?keyword=洗衣液&amp;PTAG=137886.1.64&amp;searchFrom=category">
+                                                <img src="//img30.360buyimg.com/focus/s140x140_jfs/t1/9/15/10624/7280/5baca797E43b008fe/9bbe27f6503a4fd6.png">
+                                                <span>洗衣液</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://so.m.jd.com/ware/search.action?keyword=鼠标&amp;PTAG=137886.1.70&amp;searchFrom=category">
+                                                <img src="//img20.360buyimg.com/focus/s140x140_jfs/t27205/124/1568993455/17417/c6e116aa/5be6f126N9aea8ef3.png">
+                                                <span>鼠标</span>
+                                            </a>
+                                        </li>
+                                        <div style="clear:both"></div>
+                                    </ul>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                 <!-- 滚动条 -->
+                 <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- 底部区域 -->
+    <footer id="footer">
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="https://m.360buyimg.com/mobilecms/jfs/t15145/137/2502885754/3106/de5e0b14/5aa10cd2N46f18ce6.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://m.360buyimg.com/mobilecms/jfs/t19183/49/696491919/3763/dec8cceb/5aa10cdbNa9cd0320.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://m.360buyimg.com/mobilecms/jfs/t18583/69/717127328/4407/5e47882b/5aa10ceaN649eec12.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://m.360buyimg.com/mobilecms/jfs/t17782/11/2358895717/4684/ad19de7f/5af43af1N04ef5a16.png" alt="">
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- 1.导入category.js -->
+    <script src="js/category.js"></script>
+    <!-- 2.导入swiper.js文件 -->
+    <script src="lib/swiper/js/swiper.js"></script>
+</body>
+
+</html>
